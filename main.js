@@ -5,11 +5,11 @@ const fs = require("fs");
 const path = require("path");
 const moment = require('moment-timezone'); // Moment time zone package to convert to Bangladesh time
 
-// main.js
 
-global.nodemodule = {}; // global.nodemodule অবজেক্ট তৈরি করা হলো
 
-// এখানে প্যাকেজগুলি লোড করুন
+global.nodemodule = {};
+
+
 global.nodemodule.request = require('request'); 
 global.nodemodule.request = require('fs-extra'); 
 
@@ -54,7 +54,7 @@ login({ appState }, (err, api) => {
     console.log(`Loaded command: ${command.config.name}`);
   });
   
-  console.log(`Total commands loaded: ${commandFiles.length}`); // মোট কমান্ড সংখ্যা দেখাবে
+  console.log(`Total commands loaded: ${commandFiles.length}`); //command lengt
 
 console.log("==================================================") 
   console.log("version: 1.0.0")
@@ -102,7 +102,7 @@ console.log("==================================================")
       
       const moment = require('moment-timezone');
 
-// নিশ্চিত হতে timestamp কে সংখ্যা হিসেবে গুন করা হচ্ছে কি না।
+
 const messageTime = moment.tz(parseInt(event.timestamp), 'Asia/Dhaka').format('hh:mm:ss A'); 
 
       // Bangladesh time
