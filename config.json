@@ -1,8 +1,9 @@
 {
-  "author": "Nayan",
-  "BOTNAME": "AnikBot",
+  "author": "Mohammad Anik",
+  "BOTNAME": "Anik-Bot",
   "PREFIX": "/",
-  "OPERATOR": ["user1_id", "user2_id"],
+  "OPERATOR": ["user1_id",
+    "user2_id"],
   "ADMINBOT": ["100001453534533"],
   "OWNER": ["100001453534533"],
   "APPROVED": ["approved_user_id"],  
